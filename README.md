@@ -13,7 +13,7 @@ Minimum SDK Requirement: IOS 13
 
 2. Go to File > Add Packages...
 
-3. In the field Enter package repository URL, enter "https://github.com/app-sastotickets/ios-swift-live.git"
+3. In the field Enter package repository URL, enter "https://github.com/app-sastotickets/ios-live.git"
 
 4. Pick the latest version and Add Package.
 
