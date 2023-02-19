@@ -510,9 +510,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -582,8 +590,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12SastoTickets16SastoticketsViewV8clientId0E6Secret13walletBalance5phone8callbackACSS_SSSdSSySDySSypGSg_s5Error_pSgtctcfc",
-            "mangledName": "$s12SastoTickets16SastoticketsViewV8clientId0E6Secret13walletBalance5phone8callbackACSS_SSSdSSySDySSypGSg_s5Error_pSgtctcfc",
+            "usr": "s:12SastoTickets16SastoticketsViewV8clientId0E6Secret13walletBalance5phone8callbackACSS_SSSdSgSSySDySSypGSg_s5Error_pSgtctcfc",
+            "mangledName": "$s12SastoTickets16SastoticketsViewV8clientId0E6Secret13walletBalance5phone8callbackACSS_SSSdSgSSySDySSypGSg_s5Error_pSgtctcfc",
             "moduleName": "SastoTickets",
             "declAttributes": [
               "AccessControl"
@@ -1400,20 +1408,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/General\/Airport.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 12,
-      "value": "\"country_id\""
-    },
-    {
-      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/General\/Airport.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 12,
-      "value": "\"country_id\""
-    },
-    {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
       "offset": 435,
@@ -1486,252 +1480,252 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1011,
       "length": 11,
       "value": "\"total_adt\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1047,
       "length": 11,
       "value": "\"total_chd\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 1083,
       "length": 11,
       "value": "\"total_inf\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1120,
       "length": 12,
       "value": "\"total_cost\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1158,
       "length": 12,
       "value": "\"fare_token\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1011,
       "length": 11,
       "value": "\"total_adt\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1047,
       "length": 11,
       "value": "\"total_chd\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 1083,
       "length": 11,
       "value": "\"total_inf\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1120,
       "length": 12,
       "value": "\"total_cost\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1158,
       "length": 12,
       "value": "\"fare_token\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1699,
       "length": 10,
       "value": "\"FlightId\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1737,
+      "offset": 1738,
       "length": 15,
       "value": "\"booking_class\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 1971,
       "length": 20,
       "value": "\"total_flying_hours\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1699,
       "length": 10,
       "value": "\"FlightId\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1737,
+      "offset": 1738,
       "length": 15,
       "value": "\"booking_class\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 1971,
       "length": 20,
       "value": "\"total_flying_hours\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 2808,
       "length": 20,
       "value": "\"departure_terminal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 2864,
       "length": 22,
       "value": "\"destination_terminal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2992,
       "length": 20,
       "value": "\"total_flying_hours\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 3084,
       "length": 17,
       "value": "\"connection_time\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 2808,
       "length": 20,
       "value": "\"departure_terminal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 2864,
       "length": 22,
       "value": "\"destination_terminal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2992,
       "length": 20,
       "value": "\"total_flying_hours\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 3084,
       "length": 17,
       "value": "\"connection_time\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3449,
       "length": 12,
       "value": "\"search_key\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 3486,
       "length": 11,
       "value": "\"source_id\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3553,
+      "offset": 3554,
       "length": 20,
       "value": "\"validating_carrier\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3619,
+      "offset": 3620,
       "length": 15,
       "value": "\"booking_class\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3662,
+      "offset": 3663,
       "length": 13,
       "value": "\"FreeBaggage\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 3701,
       "length": 10,
       "value": "\"FlightNo\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3449,
       "length": 12,
       "value": "\"search_key\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 3486,
       "length": 11,
       "value": "\"source_id\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3553,
+      "offset": 3554,
       "length": 20,
       "value": "\"validating_carrier\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3619,
+      "offset": 3620,
       "length": 15,
       "value": "\"booking_class\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3662,
+      "offset": 3663,
       "length": 13,
       "value": "\"FreeBaggage\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchOneWay.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 3701,
       "length": 10,
       "value": "\"FlightNo\""
     },
@@ -2032,231 +2026,231 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 686,
       "length": 7,
       "value": "\"Nepal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 718,
       "length": 17,
       "value": "\"Pokhara Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 743,
       "length": 9,
       "value": "\"Pokhara\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 789,
+      "offset": 760,
       "length": 5,
       "value": "\"PKR\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 776,
       "length": 7,
       "value": "\"Nepal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 866,
+      "offset": 808,
       "length": 31,
       "value": "\"Indira Gandhi Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 847,
       "length": 11,
       "value": "\"New Delhi\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 866,
       "length": 5,
       "value": "\"DEL\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 882,
       "length": 7,
       "value": "\"India\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 914,
       "length": 23,
       "value": "\"Hamad Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 945,
       "length": 6,
       "value": "\"Doha\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 959,
       "length": 5,
       "value": "\"DOH\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 975,
       "length": 7,
       "value": "\"Qatar\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1007,
       "length": 23,
       "value": "\"Dubai Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1038,
       "length": 7,
       "value": "\"Dubai\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 1053,
       "length": 5,
       "value": "\"DXB\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1069,
       "length": 22,
       "value": "\"United Arab Emirates\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1261,
+      "offset": 1116,
       "length": 25,
       "value": "\"London Heathrow Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 1149,
       "length": 8,
       "value": "\"London\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1165,
       "length": 5,
       "value": "\"LHR\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1181,
       "length": 16,
       "value": "\"United Kingdom\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1396,
+      "offset": 1222,
       "length": 35,
       "value": "\"Dallas Fort Worth Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1265,
       "length": 19,
       "value": "\"Dallas-Fort Worth\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1292,
       "length": 5,
       "value": "\"DFW\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1511,
+      "offset": 1308,
       "length": 15,
       "value": "\"United States\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1348,
       "length": 40,
       "value": "\"Sydney Kingsford Smith Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1396,
       "length": 8,
       "value": "\"Sydney\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1615,
+      "offset": 1412,
       "length": 5,
       "value": "\"SYD\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1660,
+      "offset": 1428,
       "length": 11,
       "value": "\"Australia\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1464,
       "length": 24,
       "value": "\"Lisbon Portela Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 1496,
       "length": 8,
       "value": "\"Lisbon\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1744,
+      "offset": 1512,
       "length": 5,
       "value": "\"LIS\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectDestinationFlightScreen\/SelectDestinationFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1528,
       "length": 10,
       "value": "\"Portugal\""
     },
@@ -2298,231 +2292,231 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 749,
       "length": 7,
       "value": "\"Nepal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 781,
       "length": 17,
       "value": "\"Pokhara Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 806,
       "length": 9,
       "value": "\"Pokhara\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 852,
+      "offset": 823,
       "length": 5,
       "value": "\"PKR\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 839,
       "length": 7,
       "value": "\"Nepal\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 929,
+      "offset": 871,
       "length": 31,
       "value": "\"Indira Gandhi Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 968,
+      "offset": 910,
       "length": 11,
       "value": "\"New Delhi\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 929,
       "length": 5,
       "value": "\"DEL\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 945,
       "length": 7,
       "value": "\"India\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 977,
       "length": 23,
       "value": "\"Hamad Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1095,
+      "offset": 1008,
       "length": 6,
       "value": "\"Doha\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
+      "offset": 1022,
       "length": 5,
       "value": "\"DOH\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1038,
       "length": 7,
       "value": "\"Qatar\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1070,
       "length": 23,
       "value": "\"Dubai Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1217,
+      "offset": 1101,
       "length": 7,
       "value": "\"Dubai\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
+      "offset": 1116,
       "length": 5,
       "value": "\"DXB\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1132,
       "length": 22,
       "value": "\"United Arab Emirates\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1324,
+      "offset": 1179,
       "length": 25,
       "value": "\"London Heathrow Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 1212,
       "length": 8,
       "value": "\"London\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
+      "offset": 1228,
       "length": 5,
       "value": "\"LHR\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1244,
       "length": 16,
       "value": "\"United Kingdom\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
+      "offset": 1285,
       "length": 35,
       "value": "\"Dallas Fort Worth Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1328,
       "length": 19,
       "value": "\"Dallas-Fort Worth\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1355,
       "length": 5,
       "value": "\"DFW\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
+      "offset": 1371,
       "length": 15,
       "value": "\"United States\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1411,
       "length": 40,
       "value": "\"Sydney Kingsford Smith Int’l Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1459,
       "length": 8,
       "value": "\"Sydney\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 1475,
       "length": 5,
       "value": "\"SYD\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 1492,
       "length": 11,
       "value": "\"Australia\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1528,
       "length": 24,
       "value": "\"Lisbon Portela Airport\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1560,
       "length": 8,
       "value": "\"Lisbon\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1807,
+      "offset": 1576,
       "length": 5,
       "value": "\"LIS\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/SelectOriginFlightScreen\/SelectOriginFlightView.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1592,
       "length": 10,
       "value": "\"Portugal\""
     },
@@ -2627,42 +2621,42 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 654,
+      "offset": 707,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 716,
+      "offset": 769,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 801,
+      "offset": 854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 846,
+      "offset": 899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 934,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/RulesAndRegulationScreen\/RulesAndRegulationView.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 963,
       "length": 2,
       "value": "\"\""
     },
@@ -2795,23 +2789,37 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomTextFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 222,
+      "offset": 258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 279,
+      "offset": 315,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomTextFieldView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 360,
+      "offset": 430,
       "length": 2,
       "value": "16"
+    },
+    {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomTextFieldView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/BookingDetailsScreen\/RoundTrip\/RTBookingDetailsView.swift",
@@ -3024,6 +3032,13 @@
       "value": "\"Female\""
     },
     {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/TravellerInformationScreen\/TravellerInformationView.swift",
+      "kind": "Array",
+      "offset": 1256,
+      "length": 21,
+      "value": "[false, false, false]"
+    },
+    {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/EmergencyContactInformationScreen\/EmergencyContactInformationViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 248,
@@ -3152,84 +3167,84 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1312,
       "length": 12,
       "value": "\"search_key\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1348,
+      "offset": 1349,
       "length": 11,
       "value": "\"source_id\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1416,
       "length": 20,
       "value": "\"validating_carrier\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1464,
       "length": 14,
       "value": "\"rbd_outbound\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1504,
       "length": 12,
       "value": "\"rbd_return\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1545,
       "length": 15,
       "value": "\"booking_class\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1312,
       "length": 12,
       "value": "\"search_key\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1348,
+      "offset": 1349,
       "length": 11,
       "value": "\"source_id\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1416,
       "length": 20,
       "value": "\"validating_carrier\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1464,
       "length": 14,
       "value": "\"rbd_outbound\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1504,
       "length": 12,
       "value": "\"rbd_return\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Models\/FlightSearch\/FlightSearchRoundTrip.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1545,
       "length": 15,
       "value": "\"booking_class\""
     },
@@ -3376,14 +3391,14 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomDatePickerView\/CustomRoundTripDatePickerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11811,
+      "offset": 11938,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomDatePickerView\/CustomRoundTripDatePickerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12132,
+      "offset": 12259,
       "length": 1,
       "value": "0"
     },
@@ -3439,133 +3454,140 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 496,
+      "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 537,
+      "offset": 535,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 583,
+      "offset": 576,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 631,
+      "offset": 622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 677,
+      "offset": 670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 879,
+      "offset": 918,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 942,
+      "offset": 981,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 1002,
+      "offset": 1041,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 1075,
+      "offset": 1114,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 1146,
+      "offset": 1185,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "Array",
-      "offset": 1214,
+      "offset": 1253,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1679,
+      "offset": 1718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1735,
+      "offset": 1774,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1788,
+      "offset": 1827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1907,
+      "offset": 1946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2005,
+      "offset": 2044,
       "length": 14,
       "value": "\"All Airlines\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2055,
+      "offset": 2094,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2130,
       "length": 2,
       "value": "\"\""
     },
@@ -3649,105 +3671,112 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 446,
+      "offset": 445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 487,
+      "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 533,
+      "offset": 526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 581,
+      "offset": 572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 666,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 769,
+      "offset": 808,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "Array",
-      "offset": 829,
+      "offset": 868,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "Array",
-      "offset": 895,
+      "offset": 934,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "Array",
-      "offset": 963,
+      "offset": 1002,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "Array",
-      "offset": 1037,
+      "offset": 1076,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1202,
+      "offset": 1241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1283,
+      "offset": 1322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1419,
       "length": 14,
       "value": "\"All Airlines\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/FlightListViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1505,
       "length": 2,
       "value": "\"\""
     },
@@ -3924,7 +3953,7 @@
       "kind": "StringLiteral",
       "offset": 182,
       "length": 8,
-      "value": "\"0.0.19\""
+      "value": "\"0.0.25\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/Constants.swift",
@@ -4851,6 +4880,13 @@
       "value": "\"confirmationPhoneIcon\""
     },
     {
+      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 6574,
+      "length": 14,
+      "value": "\"scrollupIcon\""
+    },
+    {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/BookingDetailsScreen\/RoundTrip\/RTFlightInformationView.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
@@ -5272,78 +5308,71 @@
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
-      "kind": "FloatLiteral",
-      "offset": 206,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "StringLiteral",
-      "offset": 237,
+      "offset": 239,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 293,
+      "offset": 295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 352,
+      "offset": 354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 406,
+      "offset": 408,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 468,
+      "offset": 470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 530,
+      "offset": 532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 587,
+      "offset": 589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "BooleanLiteral",
-      "offset": 653,
+      "offset": 655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 721,
       "length": 10,
       "value": "\"Nepalese\""
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/AppState.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 774,
       "length": 4,
       "value": "\"NP\""
     },
@@ -5469,7 +5498,7 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/OneWayFlightListView\/OneWayFlightListView.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 597,
       "length": 19,
       "value": "\"Departing Flights\""
     },
@@ -6148,28 +6177,28 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2333,
+      "offset": 2334,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2396,
+      "offset": 2397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2448,
+      "offset": 2449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Screens\/FlightListScreen\/Domestic\/DomesticFlightListView.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2497,
       "length": 33,
       "value": "\"You don't have sufficient fund.\""
     },
@@ -6197,14 +6226,14 @@
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomDatePickerView\/CustomOneWayDatePickerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8549,
+      "offset": 8608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/skybase\/Desktop\/sasto-tickets-sdk-ios\/SastoTickets\/Utils\/CustomViews\/CustomDatePickerView\/CustomOneWayDatePickerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8870,
+      "offset": 8929,
       "length": 1,
       "value": "0"
     }
